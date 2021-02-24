@@ -1,0 +1,392 @@
+body
+{
+    background-color: white;
+    font-family: 'Monda', sans-serif;
+}
+
+.account
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 40px;
+    background-color: black;
+}
+
+.account p
+{
+    color: #9c9a9a;
+}
+
+.account ul
+{
+    display: flex;
+
+}
+
+.account li
+{
+    color: white;
+    padding: 10px;
+    border-right: 1px solid #706e6e;
+    border-left: 1px solid #706e6e;
+}
+
+.account a
+{
+    text-decoration: none;
+    color: #9c9a9a;
+    font-weight: bold;
+
+    transition: all 1s;
+}
+
+.account a:hover
+{
+    color: rgb(86, 130, 196);
+}
+
+header
+{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color:#ffffff;
+    width: 100%;
+    height: 100px;
+   
+}
+
+aside {
+    position: absolute;;
+    top:40px;
+    right:0;
+    z-index:999;
+    display:flex;
+}
+#menu-opener {
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    margin-top:40px;
+    margin-right:10px;
+}
+#menu-area {
+    width:0px;
+    height:100vh;
+    background:#ccc;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;
+}
+
+.menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu h1
+{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.menu ul
+{
+  display: flex;
+}
+
+li.start
+{
+   background-color: rgb(233, 167, 167);
+}
+
+.menu li
+{
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 12px;
+}
+
+.menu li:hover
+{
+    background-color: rgb(233, 167, 167);
+    border-radius: 12px;
+}
+
+.menu a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
+  transition: all 1s;
+}
+
+.menu a:hover
+{
+    
+    color: rgb(86, 130, 196);
+}
+
+
+.image-banner img
+{
+    padding-top:10px ;
+    width: 100%;
+}
+
+.image-banner ul
+{
+    display: flex;
+}
+
+
+section.categoria
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 600px;
+}
+
+.categoria-img
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.img
+{
+    margin: 10px;
+    height: 350px;
+    width: 350px;
+    transition: all 1s;
+}
+
+img.img:hover
+{
+    opacity: 0.5;
+    width: 400px;
+    height: 400px;
+}
+
+
+footer.rodape 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+footer.rodape , .contato-rodape
+{
+    color:  #706e6e;
+}
+
+footer.rodape h1
+{
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer.rodape ul
+{
+    margin-top: 10px;
+}
+
+footer.rodape li
+{
+    margin-top: 5px;
+}
+
+footer.rodape a
+{
+    color: #706e6e;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+footer.rodape a:hover
+{
+    color: rgb(86, 130, 196);
+}
+
+div.contato-rodape
+{
+    width: 150px;
+}
+
+div.credito
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.pagamento
+{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+}
+
+div.credito p
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------style contato-------------------------------------------*/
+
+a.titulo-link
+{
+    text-decoration: none;
+}
+
+a.titulo-link:hover
+{
+   color: black;
+}
+
+
+section.center
+{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form.login h2
+{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+form.login a
+{
+    color: grey;
+    text-decoration: none;
+}
+
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input
+{
+    
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;    
+}
+
+button
+{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;  
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.label-cadastro
+{
+    margin-top: 10px;
+}
+
+div.line
+{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    border-left:1px solid black ;
+}
+
+/*-------------------------------------------boné style-------------------------------------------*/
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+}
+
+.area-produto
+{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(224, 223, 223);
+    text-align: center;
+}
+
+.modal
+{
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 320px;
+    width: 700px;
+    height: 300px;
+    background-color: brown;
+    justify-content: center;
+}
+
+.modal p
+{
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    
+}
+
+.area-nome, .area-preco
+{
+    margin-top: 5px;
+}
+
+.area-add
+{
+    position: relative;
+    top: 35px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: brown;
+    transition: all 1s;
+}
+
+.area-add:hover
+{
+    background-color: rgb(197, 64, 64);
+}
