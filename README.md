@@ -1,2 +1,3 @@
 # primeiroSite
-Site, baseado em R6, criado com html5, css3, js e sass, tudo através do webpack
+Site, baseado em layouts da web, site de roupas e afins, criado com html, css e um pocuo de js.
+
